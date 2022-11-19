@@ -1,11 +1,11 @@
 import './App.css';
-
+import BodyList from './components/BodyTypes/BodyList';
 
 function App() {
  
   return (
     <div className="App">
-        Hello  
+        <BodyList/>  
     </div>
   );
 }
