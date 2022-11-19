@@ -1,14 +1,13 @@
-import React from "react"
-import './BodyType.css'
+import { React, useState } from "react";
+import "./BodyType.css";
 
-const BodyType = ({bodytype }) => {
-    return (
-        <div>
-            {bodytype.map(item => (
-               <img key={item.id} src={item.imageSrc} alt="body" />
-            ))}
-        </div>
-    )
-}
+const BodyType = ({ bodytype }) => {
+  return (
+    <div className="img-container">
+     <img key={bodytype.id} src={bodytype.imageSrc} alt="body" />
+      
+    </div>
+  );
+};
 
-export default BodyType
+export default BodyType;
