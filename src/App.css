@@ -4,8 +4,16 @@
    padding: 0;
 }
 
+
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.button-app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
 }
